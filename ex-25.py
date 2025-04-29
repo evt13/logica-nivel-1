@@ -11,7 +11,7 @@ while True:
     # Se for negativo, mostra a soma atual e encerra
     if numero < 0:
         print(" Soma final:", soma)
-        break
+        break #é usada para interromper a execução de um laço (loop) antes de que o ciclo seja concluído
 
     # Caso contrário, soma o número e mostra a soma atual
     soma += numero
