@@ -6,11 +6,11 @@ soma = 0
 # Início do loop
 while True:
     # Solicita um número ao usuário
-    numero = float(input("Digite um número positivo (ou negativo para parar): "))
+    numero = float(input("Digite um número ): "))
 
     # Se for negativo, mostra a soma atual e encerra
     if numero < 0:
-        print("Número negativo digitado. Soma final:", soma)
+        print(" Soma final:", soma)
         break
 
     # Caso contrário, soma o número e mostra a soma atual
